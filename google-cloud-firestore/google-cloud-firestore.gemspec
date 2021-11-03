@@ -22,8 +22,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency "google-cloud-core", "~> 1.5"
   gem.add_dependency "google-cloud-firestore-v1", "~> 0.0"
   gem.add_dependency "concurrent-ruby", "~> 1.0"
-  gem.add_dependency "rbtree", "~> 0.4.2"
-
+  gem.add_dependency "rbtree3", "~> 0.5.0"
+  
   gem.add_development_dependency "google-style", "~> 1.25.1"
   gem.add_development_dependency "minitest", "~> 5.14"
   gem.add_development_dependency "minitest-autotest", "~> 1.0"

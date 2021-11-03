@@ -20,7 +20,7 @@ require "google/cloud/firestore/document_snapshot"
 require "google/cloud/firestore/document_change"
 require "google/cloud/firestore/query_snapshot"
 require "google/cloud/firestore/watch/order"
-require "rbtree"
+require "rbtree3"
 
 module Google
   module Cloud
